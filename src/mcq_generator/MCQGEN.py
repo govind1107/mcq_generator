@@ -21,7 +21,7 @@ from langchain.chat_models import ChatOpenAI
 # loading the enviorment variables
 load_dotenv()
 # get the key
-KEY = os.getenv("OPEN_AI_KEY")
+KEY = os.getenv("OPEN_API_KEY")
 
 
 # create the openai llm client

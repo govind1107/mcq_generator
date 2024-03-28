@@ -17,7 +17,7 @@ from src.mcq_generator.MCQGEN import quiz_chain
 
 
 with open("response.json",'r') as file:
-    RESPONSE_JSON = json.loads(file)
+    RESPONSE_JSON = json.load(file)
 
 
 st.title("MCQ generator app with LANGCHAIN")
