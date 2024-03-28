@@ -70,7 +70,9 @@ with st.form("user_inputs"):
 
                         df.index = df.index+1
 
-                        st.table(df)
+                        print(df.shape)
+
+                        st.write(df)
 
                         st.text_area(label = "Review",value = response["review"])
 

@@ -42,7 +42,7 @@ def get_table_data(quiz_str):
 
             quiz_table_data.append({"MCQ":mcq,"choices":options,"Correct":correct})
 
-            return quiz_table_data
+        return quiz_table_data
     except Exception as e:
         traceback.print_exception(type(e),e,e.__traceback__e)
         return False
